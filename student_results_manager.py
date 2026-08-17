@@ -221,3 +221,5 @@ for student in students:
 class_average = calculate_average(students)
 
 print("Class average:", round(class_average, 2))
+highest_score = max(student["score"] for student in students)
+print("Highest score:", highest_score)
